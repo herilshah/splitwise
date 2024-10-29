@@ -1,0 +1,35 @@
+body {
+    background-color: #121212; /* Dark background */
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.app-name {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.custom-input {
+    background-color: #1e1e1e; /* Darker input background */
+    color: #fff;
+    border: 1px solid #444;
+    border-radius: 8px; /* Rounded corners */
+    padding: 0.75rem 1rem;
+    width: 100%; /* Full width of the container */
+}
+
+.custom-input::placeholder {
+    color: #888; /* Placeholder color */
+}
+
+.btn-light {
+    background-color: #fff;
+    color: #000;
+    border-radius: 20px;
+    width: 100%; /* Button matches input width */
+}
+
+.btn-light:hover {
+    background-color: #f1f1f1;
+    color: #000;
+}
